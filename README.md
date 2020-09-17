@@ -56,41 +56,26 @@
 - ConfigMap_1.Order PolicyHandler에서 Env사용
 ![ConfigMap_1 Order PolicyHandler에서 Env사용](https://user-images.githubusercontent.com/22510081/93423144-4152b400-f8f0-11ea-8b84-c77a035cbd87.png)
 
-# AutoScale 적용
- - ![7 autoscale적용](https://user-images.githubusercontent.com/60597630/93411382-02b00000-f8d6-11ea-83e6-0437b3c9a605.JPG) 
- - ![7 autoscale-before](https://user-images.githubusercontent.com/60597630/93408681-1a848580-f8d0-11ea-88ad-d35d432f7233.JPG) 
- - ![7 autoscale-after](https://user-images.githubusercontent.com/60597630/93408679-19535880-f8d0-11ea-9f13-f3c278002d57.JPG) 
+# 무중단배포
+- 무중단배포-delivery배포중
+![무중단배포-delivery배포중](https://user-images.githubusercontent.com/22510081/93423524-22085680-f8f1-11ea-8c6a-bb18183f7b18.png)
+- 무중단배포-delivery배포중2인데 2개가 떠 있음
+![무중단배포-delivery배포중2인데 2개가 떠 있음](https://user-images.githubusercontent.com/22510081/93423527-23398380-f8f1-11ea-8425-2b3a2153250a.png)
+
+# 서킷 브레이킹
+- CD_1.dr생성
+![CB_1 dr생성](https://user-images.githubusercontent.com/22510081/93423834-d0140080-f8f1-11ea-8df3-94d852841f53.png)
+- CB_2.Siege부하생성_정상
+![CB_2 Siege부하생성_정상](https://user-images.githubusercontent.com/22510081/93423808-c5596b80-f8f1-11ea-8ffb-d01114a238af.png)
+- CB_3.Siege부하생성_차단발생
+![CB_3 Siege부하생성_차단발생](https://user-images.githubusercontent.com/22510081/93423822-cc807980-f8f1-11ea-8f23-d8e5c370c9ef.png)
+- CB_4.Siege부하생성_차단발생2
+![CB_4 Siege부하생성_차단발생2](https://user-images.githubusercontent.com/22510081/93423826-cdb1a680-f8f1-11ea-81db-e7cdbbdbb161.png)
+- CB_5.Siege부하생성_kiali_External IP확인
+![CB_5 Siege부하생성_kiali_External IP확인](https://user-images.githubusercontent.com/22510081/93423835-d0ac9700-f8f1-11ea-83f0-3025ce965f8d.png)
+- CB_6.Siege부하생성_차단발생2_kiali확인
+![CB_6 Siege부하생성_차단발생2_kiali확인](https://user-images.githubusercontent.com/22510081/93423829-ce4a3d00-f8f1-11ea-9f0d-72b4354ade37.png)
  
-
-
-# Circuit Breaker 적용
- - ![7 circuit breaker](https://user-images.githubusercontent.com/60597630/93408682-1a848580-f8d0-11ea-8105-7c9b72894701.JPG) 
-
-
-# Polyglot 적용
- - ![8 polyglot적용](https://user-images.githubusercontent.com/60597630/93408684-1bb5b280-f8d0-11ea-8949-0eebc2e03e8b.JPG) 
-
-
-# Readiness, Liveness 적용
- ![9 readiness,liveness 적용](https://user-images.githubusercontent.com/60597630/93408690-1c4e4900-f8d0-11ea-9ba3-43772c1d4e03.JPG) 
  
- - Readiness, Liveness 점검 
- -![9 liveness test](https://user-images.githubusercontent.com/60597630/93409959-07bf8000-f8d3-11ea-86fd-d8a05656aaef.JPG) 
- 
- - Liveness 
- -![9 liveness before](https://user-images.githubusercontent.com/60597630/93408687-1c4e4900-f8d0-11ea-8fb1-e143e694b161.JPG) 
- -![9 liveness after](https://user-images.githubusercontent.com/60597630/93408686-1bb5b280-f8d0-11ea-8496-e20ad140c656.JPG) 
- 
- - Readines 
- -![9 readiness인가](https://user-images.githubusercontent.com/60597630/93408691-1ce6df80-f8d0-11ea-9b23-7ef309f9de8a.JPG) 
- -![9 readiness인가2](https://user-images.githubusercontent.com/60597630/93408692-1d7f7600-f8d0-11ea-9bda-c8694328f648.JPG) 
- 
-
-# kiali모니터링 적용
- - ![10 kiali](https://user-images.githubusercontent.com/60597630/93408660-12c4e100-f8d0-11ea-9361-a518a66e9ee1.JPG) 
-
-
-# jaeger모니터링 적용
- - ![10 jaeger](https://user-images.githubusercontent.com/60597630/93408656-1193b400-f8d0-11ea-97eb-dfbd250acfac.JPG) 
  
  끝
