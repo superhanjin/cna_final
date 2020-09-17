@@ -58,6 +58,9 @@
 # Readiness, Liveness 적용
  ![9 readiness,liveness 적용](https://user-images.githubusercontent.com/60597630/93408690-1c4e4900-f8d0-11ea-9ba3-43772c1d4e03.JPG)
  
+ - Readiness, Liveness 점검
+  - ![9 liveness test](https://user-images.githubusercontent.com/60597630/93409959-07bf8000-f8d3-11ea-86fd-d8a05656aaef.JPG)
+ 
  - Readiness
   - ![9 readiness인가](https://user-images.githubusercontent.com/60597630/93408691-1ce6df80-f8d0-11ea-9b23-7ef309f9de8a.JPG)
   - ![9 readiness인가2](https://user-images.githubusercontent.com/60597630/93408692-1d7f7600-f8d0-11ea-9bda-c8694328f648.JPG)
