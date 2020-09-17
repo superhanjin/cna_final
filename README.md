@@ -20,6 +20,11 @@
  ![1 모델링](https://user-images.githubusercontent.com/60597630/93408661-13f60e00-f8d0-11ea-8fe3-0c3c3c51fada.JPG)
 
 
+# 구현
+ - feignclient 사용(delivery-external에 BaeminDeliveryService.java) 
+  ![1 feignclient 적용](https://user-images.githubusercontent.com/60597630/93409416-ced2db80-f8d1-11ea-9bb4-d38debb0e7b7.JPG)
+
+
 # 시연
 - 오더 생성
  ![2 final_order넣기](https://user-images.githubusercontent.com/60597630/93408665-148ea480-f8d0-11ea-98d3-249a34cf0dc8.JPG)
