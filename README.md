@@ -1,27 +1,60 @@
-# 유희명 final
-- 모델링
+# 주제 : 꽃배달
 
-- codebuild 적용
-![codebuild](https://user-images.githubusercontent.com/60597630/93329518-4532f780-f858-11ea-94a0-b33477f38ded.JPG)
+# 개인과제 추가 내용 : 배민 라이더스 배송 기능 추가
 
-![codebuild2](https://user-images.githubusercontent.com/60597630/93329520-45cb8e00-f858-11ea-9e86-85bf7bfe994d.JPG)
+# 기능적 요구사항
+ - 고객이 꽃배달 메뉴 선택하여 주문한다
+ - 주문이 벌어지면 결제 시스템의 결제 기능이 호출된다
+ - 주문이 되면 주문 내역이 꽃가게 주인에게 전달된다
+ - 꽃가게 주인이 확인하여 꽃을 만들어서 배달 출발한다
+ - 고객이 주문을 취소할 수 있다
+ - 주문이 취소되면 배달이 취소된다
+ - 고객이 주문상태를 중간중간 조회한다
+ - 주문상태가 바뀔 때 마다 SMS로 알림을 보낸다
+ - (추가) 배민 라이더스가 오더 확인후 배송출발을 누른다. (배송출발시 오더상태(orderStatus 변경, SMS발송)
 
-- 오더생성
-![order 넣기](https://user-images.githubusercontent.com/60597630/93329532-48c67e80-f858-11ea-99dd-1655dcf8c3b5.JPG)
+# 모델링
 
-- 배송시작
-![delivery start](https://user-images.githubusercontent.com/60597630/93329521-46642480-f858-11ea-9ddb-72efe8e461ca.JPG)
 
-- Mypage뷰
-![mypage](https://user-images.githubusercontent.com/60597630/93329529-482de800-f858-11ea-928b-c26fe05473f1.JPG)
+# 시연
+ - 오더 생성
 
-- kafka 이벤트 확인
-![kafka](https://user-images.githubusercontent.com/60597630/93329522-46642480-f858-11ea-9715-62b520febccb.JPG)
+- 배민 배송 출발
 
-- circuit breaker 확인
-![circuit breaker](https://user-images.githubusercontent.com/60597630/93329512-43693400-f858-11ea-940e-63d8084eb2eb.JPG)
+- 배송확인
 
-- kiali모니터링 적용
-![kiali](https://user-images.githubusercontent.com/60597630/93329526-46fcbb00-f858-11ea-88c4-c3e37a647963.JPG)
+- 오더 취소하기
 
+- Mypage view
+
+
+# codebuild 적용
+
+
+
+# AutoScale 적용
+
+
+
+# Circuit Breaker 적용
+
+
+
+# Polyglot 적용
+
+
+
+# Readiness 적용
+
+
+
+# Liveness 적용
+
+
+
+# kiali모니터링 적용
+
+
+
+# jaeger모니터링 적용
 
