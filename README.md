@@ -39,42 +39,42 @@
 
 
 # codebuild 적용
- ![6 final_codebuild](https://user-images.githubusercontent.com/60597630/93408676-18222b80-f8d0-11ea-822b-805364295172.JPG)
+ - ![6 final_codebuild](https://user-images.githubusercontent.com/60597630/93408676-18222b80-f8d0-11ea-822b-805364295172.JPG)
 
 
 # AutoScale 적용
- ![7 autoscale-before](https://user-images.githubusercontent.com/60597630/93408681-1a848580-f8d0-11ea-88ad-d35d432f7233.JPG)
- ![7 autoscale-after](https://user-images.githubusercontent.com/60597630/93408679-19535880-f8d0-11ea-9f13-f3c278002d57.JPG)
+ - ![7 autoscale-before](https://user-images.githubusercontent.com/60597630/93408681-1a848580-f8d0-11ea-88ad-d35d432f7233.JPG)
+ - ![7 autoscale-after](https://user-images.githubusercontent.com/60597630/93408679-19535880-f8d0-11ea-9f13-f3c278002d57.JPG)
 
 
 # Circuit Breaker 적용
- ![7 circuit breaker](https://user-images.githubusercontent.com/60597630/93408682-1a848580-f8d0-11ea-8105-7c9b72894701.JPG)
+ - ![7 circuit breaker](https://user-images.githubusercontent.com/60597630/93408682-1a848580-f8d0-11ea-8105-7c9b72894701.JPG)
 
 
 # Polyglot 적용
-![8 polyglot적용](https://user-images.githubusercontent.com/60597630/93408684-1bb5b280-f8d0-11ea-8949-0eebc2e03e8b.JPG)
+ - ![8 polyglot적용](https://user-images.githubusercontent.com/60597630/93408684-1bb5b280-f8d0-11ea-8949-0eebc2e03e8b.JPG)
 
 
 # Readiness, Liveness 적용
  ![9 readiness,liveness 적용](https://user-images.githubusercontent.com/60597630/93408690-1c4e4900-f8d0-11ea-9ba3-43772c1d4e03.JPG)
  
  - Readiness, Liveness 점검
-   ![9 liveness test](https://user-images.githubusercontent.com/60597630/93409959-07bf8000-f8d3-11ea-86fd-d8a05656aaef.JPG)
+   1 ![9 liveness test](https://user-images.githubusercontent.com/60597630/93409959-07bf8000-f8d3-11ea-86fd-d8a05656aaef.JPG)
  
   - Liveness
-    ![9 liveness before](https://user-images.githubusercontent.com/60597630/93408687-1c4e4900-f8d0-11ea-8fb1-e143e694b161.JPG)
-    ![9 liveness after](https://user-images.githubusercontent.com/60597630/93408686-1bb5b280-f8d0-11ea-8496-e20ad140c656.JPG)
+   1 ![9 liveness before](https://user-images.githubusercontent.com/60597630/93408687-1c4e4900-f8d0-11ea-8fb1-e143e694b161.JPG)
+   1 ![9 liveness after](https://user-images.githubusercontent.com/60597630/93408686-1bb5b280-f8d0-11ea-8496-e20ad140c656.JPG)
  
  - Readiness
-    ![9 readiness인가](https://user-images.githubusercontent.com/60597630/93408691-1ce6df80-f8d0-11ea-9b23-7ef309f9de8a.JPG)
-    ![9 readiness인가2](https://user-images.githubusercontent.com/60597630/93408692-1d7f7600-f8d0-11ea-9bda-c8694328f648.JPG)
+   1 ![9 readiness인가](https://user-images.githubusercontent.com/60597630/93408691-1ce6df80-f8d0-11ea-9b23-7ef309f9de8a.JPG)
+   1 ![9 readiness인가2](https://user-images.githubusercontent.com/60597630/93408692-1d7f7600-f8d0-11ea-9bda-c8694328f648.JPG)
  
 
 # kiali모니터링 적용
- ![10 kiali](https://user-images.githubusercontent.com/60597630/93408660-12c4e100-f8d0-11ea-9361-a518a66e9ee1.JPG)
+ - ![10 kiali](https://user-images.githubusercontent.com/60597630/93408660-12c4e100-f8d0-11ea-9361-a518a66e9ee1.JPG)
 
 
 # jaeger모니터링 적용
- ![10 jaeger](https://user-images.githubusercontent.com/60597630/93408656-1193b400-f8d0-11ea-97eb-dfbd250acfac.JPG)
+ - ![10 jaeger](https://user-images.githubusercontent.com/60597630/93408656-1193b400-f8d0-11ea-97eb-dfbd250acfac.JPG)
  
  
