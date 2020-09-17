@@ -21,6 +21,7 @@
 
 
 # 시연
+- SAGA패턴, CQRS
 - Senario_1.첫번째주문명령
 ![Senario_1 첫번째주문명령](https://user-images.githubusercontent.com/22510081/93422781-862a1b00-f8ef-11ea-8e41-3fceaf179de9.png)
 - Senario_2.첫번째주문카프카메시지로그
@@ -76,6 +77,35 @@
 - CB_6.Siege부하생성_차단발생2_kiali확인
 ![CB_6 Siege부하생성_차단발생2_kiali확인](https://user-images.githubusercontent.com/22510081/93423829-ce4a3d00-f8f1-11ea-9f0d-72b4354ade37.png)
  
+ # 오토스케일아웃
+- HPA_1.order에HPA설정적용
+![HPA_1 order에HPA설정적용](https://user-images.githubusercontent.com/22510081/93424150-63e5cc80-f8f2-11ea-83a6-fde89c4c3ad2.png)
+- HPA_2.oder의 Pod증가
+![HPA_2 oder의 Pod증가](https://user-images.githubusercontent.com/22510081/93424147-634d3600-f8f2-11ea-888f-4375aaa6225b.png)
+
+# Liveness
+- Liveness_1.sms의 buildspec.yml 파일에 livenessProbe적용
+![Liveness_1 sms의 buildspec yml 파일에 livenessProbe적용](https://user-images.githubusercontent.com/22510081/93424351-dbb3f700-f8f2-11ea-9d60-b03e189765b9.png)
+- Liveness_2.sms가 CodeBuild에 의해 자동재배포
+![Liveness_2 sms가 CodeBuild에 의해 자동재배포](https://user-images.githubusercontent.com/22510081/93424347-da82ca00-f8f2-11ea-9e1c-65702c1f7174.png)
  
  
+ # PVC. Readiness
+- P.PVC.Readiness_1.delivery 의 buildspec.yml 파일에 pvc 적용
+![P PVC Readiness_1 delivery 의 buildspec yml 파일에 pvc 적용](https://user-images.githubusercontent.com/22510081/93424705-83312980-f8f3-11ea-8dca-55eb13bfbe7f.png)
+- P.PVC.Readiness_2.delivery 의 buildspec.yml 파일 수정적용후pod가 정상적으로 올라옴
+![P PVC Readiness_2 delivery 의 buildspec yml 파일 수정적용후pod가 정상적으로 올라옴](https://user-images.githubusercontent.com/22510081/93424703-82989300-f8f3-11ea-9708-d00229322f7c.png)
+- P.PVC.Readiness_3.delivery 에서 pvc 에 bind 를 못하면서 오류발생. Reaniness 가 안되어 pod 교체가 안됨. 기존pod가 살아있으므- 로 무중단배포
+![P PVC Readiness_3 delivery 에서 pvc 에 bind 를 못하면서 오류발생  Reaniness 가 안되어 pod 교체가 안됨  기존pod가 살아있으므로 무중단배포](https://user-images.githubusercontent.com/22510081/93424700-80cecf80-f8f3-11ea-89cc-7bbb7f46dc79.png)
+- P.PVC.Readiness_4.delivery가 CodeBuild를통해자동재빌드됨
+![P PVC Readiness_4 delivery가 CodeBuild를통해자동재빌드됨](https://user-images.githubusercontent.com/22510081/93424709-84faed00-f8f3-11ea-92f7-f3527cadfea4.png)
+- P.PVC.Readiness_5.delivery 의 buildspec.yml 파일에 pvc 적용제거
+![P PVC Readiness_5 delivery 의 buildspec yml 파일에 pvc 적용제거](https://user-images.githubusercontent.com/22510081/93424708-84625680-f8f3-11ea-8d1f-be1427b18083.png)
+
+# Polyglot
+- Polyglot_delivery의 pom파일에 h2 대신 hsqldb 사용
+![Polyglot_delivery의 pom파일에 h2 대신 hsqldb 사용](https://user-images.githubusercontent.com/22510081/93425048-34d05a80-f8f4-11ea-9daa-835a81808f67.png)
+
+
+
  끝
