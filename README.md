@@ -16,31 +16,52 @@
 
 
 # 구현
- - feignclient 사용(delivery-external에 BaeminDeliveryService.java) 
-  ![1 feignclient 적용](https://user-images.githubusercontent.com/60597630/93409416-ced2db80-f8d1-11ea-9bb4-d38debb0e7b7.JPG) 
+ - feignclient 사용(order-external에 payment.java) 
+![FeignClient사용](https://user-images.githubusercontent.com/22510081/93422627-1e73d000-f8ef-11ea-949c-fda61bef9ba7.png) 
 
 
 # 시연
-- 오더 생성
- ![2 final_order넣기](https://user-images.githubusercontent.com/60597630/93408665-148ea480-f8d0-11ea-98d3-249a34cf0dc8.JPG) 
- ![2 final_order kafkalog](https://user-images.githubusercontent.com/60597630/93408664-13f60e00-f8d0-11ea-8d03-022279b9bb9f.JPG) 
- 
-- 배민 배송 출발
- ![4 baeminDeliveryStart](https://user-images.githubusercontent.com/60597630/93408668-16586800-f8d0-11ea-90ef-6872d0227cc1.JPG) 
- ![4 baeminDeliveryStart_kafka log](https://user-images.githubusercontent.com/60597630/93408669-16586800-f8d0-11ea-8d49-37e8e9e14cbe.JPG) 
-
-- Mypage view
- ![5 mypage](https://user-images.githubusercontent.com/60597630/93408675-17899500-f8d0-11ea-8f50-5722241ead9b.JPG) 
-
+- Senario_1.첫번째주문명령
+![Senario_1 첫번째주문명령](https://user-images.githubusercontent.com/22510081/93422781-862a1b00-f8ef-11ea-8e41-3fceaf179de9.png)
+- Senario_2.첫번째주문카프카메시지로그
+![Senario_2 첫번째주문카프카메시지로그](https://user-images.githubusercontent.com/22510081/93422806-917d4680-f8ef-11ea-944f-9d42b8987002.png)
+- Senario_3.첫번째주문-Delivery에서이벤트수신
+![Senario_3 첫번째주문-Delivery에서이벤트수신](https://user-images.githubusercontent.com/22510081/93422807-9215dd00-f8ef-11ea-8b9e-8149eeb2dec9.png)
+- Senario_4.첫번째주문에대해Delivery에서배송시작명령
+![Senario_4 첫번째주문에대해Delivery에서배송시작명령](https://user-images.githubusercontent.com/22510081/93422808-92ae7380-f8ef-11ea-9cb6-6b116cd74b30.png)
+- Senario_5.첫번째주문에대해Delivery에서Shipped이벤트발행
+![Senario_5 첫번째주문에대해Delivery에서Shipped이벤트발행](https://user-images.githubusercontent.com/22510081/93422809-93470a00-f8ef-11ea-96ac-425879ca328c.png)
+- Senario_6.mypages뷰확인(CQRS)
+![Senario_6 mypages뷰확인(CQRS)](https://user-images.githubusercontent.com/22510081/93422794-8de9bf80-f8ef-11ea-8b4b-d4babb1f90da.png)
+- Senario_7.orderDetails뷰확인(CQRS)
+![Senario_7 orderDetails뷰확인(CQRS)](https://user-images.githubusercontent.com/22510081/93422795-8f1aec80-f8ef-11ea-926e-570ca44cb5a7.png)
+- Senario_8.두번째주문명령
+![Senario_8 두번째주문명령](https://user-images.githubusercontent.com/22510081/93422798-8f1aec80-f8ef-11ea-9d8f-bdcf633425fc.png)
+- Senario_9.두번째주문카프카메시지로그
+![Senario_9 두번째주문카프카메시지로그](https://user-images.githubusercontent.com/22510081/93422799-8fb38300-f8ef-11ea-9496-39dff15ba44a.png)
+- Senario_10.두번째주문취소명령
+![Senario_10 두번째주문취소명령](https://user-images.githubusercontent.com/22510081/93422800-904c1980-f8ef-11ea-8cf9-b14dbcf3f448.png)
+- Senario_11.두번째주문취소카프카메시지로그
+![Senario_11 두번째주문취소카프카메시지로그](https://user-images.githubusercontent.com/22510081/93422801-90e4b000-f8ef-11ea-8475-af46bdd5d36d.png)
 
 # codebuild 적용
- - ![6 final_codebuild](https://user-images.githubusercontent.com/60597630/93408676-18222b80-f8d0-11ea-822b-805364295172.JPG) 
+- CodeBuild_1.개인GibHub레파지토리
+![CodeBuild_1 개인GibHub레파지토리](https://user-images.githubusercontent.com/22510081/93423083-17998d00-f8f0-11ea-84a4-9df770873f52.png)
+- CodeBuild_1.코드빌드프로젝트(개인GitHub계정에연결)
+![CodeBuild_1 코드빌드프로젝트(개인GitHub계정에연결)](https://user-images.githubusercontent.com/22510081/93423084-18caba00-f8f0-11ea-90c1-459b70ca10eb.png)
 
+ # ConfigMap 적용
+- ConfigMap_1.ConfigMap생성
+![ConfigMap_1 ConfigMap생성](https://user-images.githubusercontent.com/22510081/93423141-40218700-f8f0-11ea-9e25-a7fdeec7ca01.png)
+- ConfigMap_1.Order PolicyHandler에서 Env사용
+![ConfigMap_1 Order PolicyHandler에서 Env사용](https://user-images.githubusercontent.com/22510081/93423144-4152b400-f8f0-11ea-8b84-c77a035cbd87.png)
 
 # AutoScale 적용
  - ![7 autoscale적용](https://user-images.githubusercontent.com/60597630/93411382-02b00000-f8d6-11ea-83e6-0437b3c9a605.JPG) 
  - ![7 autoscale-before](https://user-images.githubusercontent.com/60597630/93408681-1a848580-f8d0-11ea-88ad-d35d432f7233.JPG) 
  - ![7 autoscale-after](https://user-images.githubusercontent.com/60597630/93408679-19535880-f8d0-11ea-9f13-f3c278002d57.JPG) 
+ 
+
 
 # Circuit Breaker 적용
  - ![7 circuit breaker](https://user-images.githubusercontent.com/60597630/93408682-1a848580-f8d0-11ea-8105-7c9b72894701.JPG) 
